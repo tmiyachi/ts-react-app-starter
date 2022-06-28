@@ -19,7 +19,10 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'prettier',
   ],
-  rules: {},
+  rules: {
+    'consistent-return': 'error',
+    'no-sequences': 'error',
+  },
   settings: {
     react: {
       version: 'detect',
